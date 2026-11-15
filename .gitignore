@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Extracted training data (big, can be regenerated with extract.py)
+data/
+
+# Raw datasets (never upload these)
+SignAlphaSet/
+*.avi
+*.mp4
+*.jpg
+*.jpeg
+*.png
+!report/*.png
+!docs/*.png
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
